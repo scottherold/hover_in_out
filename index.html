@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Hover Image</title>
+        <meta charset="UTF-8">
+        <meta name="Hover Image" description="Hover over an image to flip it!">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('img').hover(function() {
+                    $(this).attr("src", "images/codercat.jpg");
+                    },
+                    function() {
+                        $(this).attr("src", "images/dojocat.jpg");
+                    }
+                );
+            });
+        </script>    
+    </head>
+    <body>
+        <div id="container">
+            <div id="images"></div>
+                <img src="images/dojocat.jpg" alt="kitten">
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">   
+                <img src="images/dojocat.jpg" alt="kitten">    
+            </div>  
+        </div>
+    </body>
+</html>

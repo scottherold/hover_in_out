@@ -1,0 +1,24 @@
+* { /* this is your compatability reset */
+    vertical-align: baseline;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    width: 1000px;
+}
+
+img {
+    display: inline-block;
+    width: 210px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin: 20px 10px
+}
